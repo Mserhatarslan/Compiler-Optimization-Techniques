@@ -11,7 +11,7 @@ Derleyiciler kodları onların işlevleri değişmemek üzere yeniden düzenleye
 
 Fakat optimizasyon terimi bu yanlışlıkla bilinmesine rağmen yaygın olarak kabul görmüştür ve kullanılmaktadır. 
 
-Kod Optimizasyonu İle İlgili Önemli Noktalar
+# Kod Optimizasyonu İle İlgili Önemli Noktalar
 Optimizasyon kaynak kod üzerinde değil kod üzerinde yapılan bir faaliyettir. Yani optimizasyon ile bizim kaynak kod dosyamızda bir değişiklik olmaz. 
 
 Optimizasyon sırasından kodda hiçbir anlam değişikliği olmaması gerekir. Yani optimize edilmemiş kod ile edilmiş kod tamamen aynı davranışı göstermelidir. Bu konuda standardın kullandığı terim “observable behavior’dur. Derleyici, kodun gözlenebilir davranışın bir değişiklik meydana getirmediği sürece istediği değişikliği/optimizasyonu yapabilir. Ayrıca bu as if rule olarak da geçer. 
